@@ -4,7 +4,7 @@ import { FiUpload } from "react-icons/fi";
 import axios from "axios";
 
 export default function MyDropzone() {
-  const url = "http://localhost:3001/";
+  const url = "http://34.136.161.125/";
 
   const [selectedFile, setSelectedFile] = useState("");
   const [values, setValues] = useState(selectedFile);
